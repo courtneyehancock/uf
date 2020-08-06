@@ -192,14 +192,6 @@ a.aa:hover {
 	position:relative;
 }
 
-.page-title {
-	padding: 25% 0 0 10%;
-	margin-top: -30px;
-	line-height: .8em;
-	font-size: 2em;
-	color: #fff;
-}
-
 ul.objectives {
     color: #f37022;
     font-size: 15px;
@@ -326,7 +318,7 @@ img.img-fluid.headshots {
 }
 
 /* -- BLOG -- */
-.col-lg-5.posts {
+.col-lg-3.posts {
 	padding:10px;
 	box-shadow: 1px 5px 8px rgba(0,0,0,.1);
 	margin: .5%;
@@ -379,6 +371,7 @@ img {
 ul.post-categories li {
     display: inline;
 }
+
 /* -- FOOTER -- */
 
 footer {
