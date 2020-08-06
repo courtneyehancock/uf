@@ -177,6 +177,10 @@ a.aa:hover {
 	font-size: 14px;
 	margin:0;
 }
+
+.shadow {
+	box-shadow: 1px 5px 8px rgba(0,0,0, .1)
+}
 /*body{
   padding-bottom:500px;
 }*/
@@ -251,6 +255,19 @@ img.uf-logo {
 
 #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link {
     letter-spacing: 1.5px;
+}
+
+/* -- INTERNAL PAGE HEADERS -- */
+.internal-div {
+	padding: 95px 0 20px;
+}
+
+.page-title {
+	padding: 25% 0 0 10%;
+	margin-top: -30px;
+	line-height: .8em;
+	font-size: 2em;
+	color: #fff;
 }
 
 /* -- HOME PAGE -- */
