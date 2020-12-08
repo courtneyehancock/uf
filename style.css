@@ -503,12 +503,6 @@ footer img {
 	}
 }
 
-@media (min-width: 1000px) {
-	.row.main-nav {
-		top: 32px;
-	}
-}
-
 @media (min-width: 1001px) {
 	.page-title {
 		font-size: 6em;
