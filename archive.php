@@ -3,8 +3,6 @@ get_header();
 ?>
 <div class="main-content">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
         <h2 class="archive-title"><?php
           if(is_category()){
             single_cat_title();
@@ -33,8 +31,6 @@ get_header();
             <?php    }
               }
         ?>
-      </div>
-    </div>
   </div>
 </div>
 
