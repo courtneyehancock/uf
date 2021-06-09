@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="https://use.typekit.net/roz5znz.css">
   <!--font awesome-->
   <script src="https://kit.fontawesome.com/45fdff44f1.js" crossorigin="anonymous"></script>
+  <!--masonry-->
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
   <?php wp_head(); ?>
 </head>
 
