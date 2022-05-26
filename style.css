@@ -88,6 +88,11 @@
 	src: url('fonts/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'BillionDreams';
+	src: url('fonts/BillionDreams.ttf') format('truetype');
+}
+
 h1 {
   font-family: 'GentonaBook', sans-serif !important;
   color: #00529b;
