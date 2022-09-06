@@ -150,17 +150,18 @@ a:hover {
 
 
 .btn {
-    border: none !important;
+    border: 2px solid #ff590e;
     font-family: 'GentonaLight' !important;
-    color: #ffffff;
-		background-color: #ff590e;
+    color: #ff590e;
+		background-color: transparent;
 		box-shadow: 1px 5px 8px rgba(0,0,0,.1);
     text-shadow: 1px 1px 0px RGBA(0,0,0,0.17);
+		border-radius:  1.25rem !important;
 }
-
 .btn:hover {
-  background-color: #ffffff;
-  color: #ff590e;
+  border: 2px solid #00285d;
+  color: #00285d;
+	background: transparent !important;
 }
 
 .p-font {
