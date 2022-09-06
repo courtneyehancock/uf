@@ -3,7 +3,7 @@
   Theme URI:
   Author: Courtney Hancock
   Description: This template was made for the University of Florida Office of Professional and Workforce Development
-  Version: 1.2.2
+  Version: 1.2.3
   License: Open
   Text Domain: uf
 
@@ -12,40 +12,33 @@
 
 /* -- Universal Styling -- */
 @font-face {
-	font-family: 'GentonaBook_Italic';
-	src: url('fonts/GentonaBook_Italic.ttf') format('truetype');
-}
-@font-face {
 	font-family: 'GentonaBook';
 	src: url('fonts/GentonaBook.ttf') format('truetype');
 }
-@font-face {
-	font-family: 'GentonaHeavy_Italic';
-	src: url('fonts/GentonaHeavy_Italic.ttf') format('truetype');
-}
+
 @font-face {
 	font-family: 'GentonaHeavy';
 	src: url('fonts/GentonaHeavy.ttf') format('truetype');
 }
-@font-face {
-	font-family: 'GentonaLight_Italic';
-	src: url('fonts/GentonaLight_Italic.ttf') format('truetype');
-}
+
 @font-face {
 	font-family: 'GentonaLight';
 	src: url('fonts/GentonaLight.ttf') format('truetype');
 }
+
 @font-face {
-	font-family: 'QuadonHeavy';
-	src: url('fonts/QuadonHeavy.ttf') format('truetype');
+	font-family: 'BillionDreams';
+	src: url('fonts/BillionDreams.ttf') format('truetype');
 }
+
 @font-face {
-	font-family: 'QuadonMedium';
-	src: url('fonts/QuadonMedium.ttf') format('truetype');
+	font-family: 'Obviously-Wide';
+	src: url('fonts/Obviously-Wide.otf') format('opentype');
 }
+
 @font-face {
-	font-family: 'QuadonThin';
-	src: url('fonts/QuadonThin.ttf') format('truetype');
+	font-family: 'Obviously-WideBold';
+	src: url('fonts/Obviously-WideBold.otf') format('opentype');
 }
 
 @font-face {
@@ -88,35 +81,31 @@
 	src: url('fonts/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
 }
 
-@font-face {
-	font-family: 'BillionDreams';
-	src: url('fonts/BillionDreams.ttf') format('truetype');
-}
 
 h1 {
-  font-family: 'GentonaBook', sans-serif !important;
+  font-family: 'Obviously-WideBold', sans-serif !important;
   color: #00529b;
 	font-size: 30px;
 	font-weight:bold;
 }
 
 h2 {
-  font-family: 'QuadonMedium', serif !important;
+  font-family: 'Obviously-Wide', serif !important;
   color: #00529b;
 	font-size: 1.2em;
 	letter-spacing:.8px;
 }
 
 h3 {
-  font-family: 'QuadonThin', serif !important;
+  font-family: 'GentonaHeavy', serif !important;
   color: #00529b;
 	font-size: 1em;
 	font-weight:bold;
-	letter-spacing:1.5px;
+	letter-spacing:1px;
 }
 
 h4 {
-  font-family: 'GentonaLight', sans-serif !important;
+  font-family: 'GentonaBook', sans-serif !important;
   color: #00529b;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -124,22 +113,26 @@ h4 {
 }
 
 h5 {
-  font-family: 'GentonaLight_Italic', sans-serif !important;
+  font-family: 'GentonaBook', sans-serif !important;
   color: #00529b;
 	font-size: 18px;
 }
 
 h6 {
-  font-family: 'GentonaLight', sans-serif !important;
+  font-family: 'GentonaBook', sans-serif !important;
   color: #00529b;
 	font-size: 18px;
+}
+
+.decor {
+	font-family: 'BillionDreams', sans-serif;
 }
 
 p,
 li {
   font-family: 'GentonaLight', sans-serif !important;
 	color: #212121;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -153,14 +146,6 @@ a {
 a:hover {
 	color: #00529b;
 	text-decoration: none;
-}
-
-a.aa {
-	color:#ff590e;
-}
-
-a.aa:hover {
-	color:#00529b;
 }
 
 
@@ -506,9 +491,6 @@ footer img {
 }
 
 }
-
-
-
 
 @media only screen and (max-width: 999px) {
 	footer {
