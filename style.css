@@ -181,6 +181,7 @@ a:hover {
   background:#fff;
   z-index:1;
 	position:relative;
+	padding-bottom:300px;
 }
 
 ul.objectives {
@@ -504,28 +505,28 @@ footer img {
   /*	max-height:75px;*/
 	}
 	footer {
-		position:fixed;
+		position:relative;
 		bottom:0;
 		left:0;
 		width:100%;
 		height:900px;
-		z-index:0;
+		z-index:1;
 	}
 	.final-footer {
 		bottom:0;
 	}
-	body{
+	/*body{
 	  padding-bottom:900px;
-	}
+	}*/
 }
 
 @media (min-width: 992px) {
 	footer {
 		height:500px;
 	}
-	body{
+/*	body{
 		padding-bottom:500px;
-	}
+	}*/
 }
 
 @media (min-width: 1001px) {
