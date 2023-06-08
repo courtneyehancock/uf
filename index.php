@@ -11,23 +11,24 @@
           the_post();?>
 
           <div class="posts">
-            <div class="row">
-              <div class="col-lg-3">
+            <div class="row align-items-center shadow p-3 mb-4 rounded-lg bg-white">
+              <div class="col-lg-4">
             <?php the_post_thumbnail('medium'); ?>
           </div>
-          <div class="col-lg-9">
+          <div class="col-lg-8">
             <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             <?php the_excerpt(); ?>
+            <p>    <a href="<?php the_permalink(); ?>" class="btn btn-primary card-btn">READ POST</a>
+
             <?php
               $archive_year = get_the_time('Y');
               $archive_month = get_the_time('m');
               $archive_day = get_the_time('d');
             ?>
-            <div class="post-info">
+            <div class="post-info d-flex align-items-center justify-content-end">
               <p class="font-italic">Published: <?php echo get_the_date(); ?></p>
             <p class="category-label font-italic">Category: <?php the_category(); ?></p>
             </div>
-            <p>    <a href="<?php the_permalink(); ?>" class="btn btn-primary card-btn">READ POST</a>
 
           </div>
           </div>
