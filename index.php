@@ -1,18 +1,21 @@
 <?php get_header(); ?>
 
-<div class="main-content">
-  <div class="container-fluid">
-    <div class="internal-div">
+<div class="main-content pt-5 pb-5">
+  <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(360deg, #00529be3, #00285ddb, #001a3d), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg');">
 
-  <div class="container-fluid">
-    <div class="row justify-content-center">
+</div>
+  <div class="container mt-5 page-top">
     <?php
       if(have_posts()){
         while(have_posts()){
           the_post();?>
 
-          <div class="col-lg-3 posts">
+          <div class="posts">
+            <div class="row">
+              <div class="col-lg-3">
             <?php the_post_thumbnail('medium'); ?>
+          </div>
+          <div class="col-lg-9">
             <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             <?php the_excerpt(); ?>
             <?php
@@ -22,13 +25,16 @@
             ?>
             <div class="post-info">
               <p class="font-italic">Published: <?php echo get_the_date(); ?></p>
-            <!--  <p class="category-label font-italic">Category: <?php the_category(); ?></p>-->
+            <p class="category-label font-italic">Category: <?php the_category(); ?></p>
             </div>
+            <p>    <a href="<?php the_permalink(); ?>" class="btn btn-primary card-btn">READ POST</a>
+
           </div>
+          </div>
+        </div>
     <?php } //ends while loop
       }//end if statement
       ?>
-    </div>
   </div>
 </div>
 <?php get_footer(); ?>
