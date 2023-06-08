@@ -358,11 +358,6 @@ ul.post-categories a {
     border-radius: 1.25rem;
 }
 
-.posts p {
-	margin-bottom: 0;
-	padding: 0 10px;
-}
-
 h2.archive-title {
 	margin: 15px 20px;
 }
@@ -379,11 +374,7 @@ ul.post-categories {
 }
 
 .post-title {
-	padding: 10px;
-}
-
-.post-info {
-	margin:10px 0px;
+	padding: 10px 10px 10px 0;
 }
 
 img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
