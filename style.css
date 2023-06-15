@@ -181,7 +181,6 @@ a:hover {
   background:#fff;
   z-index:1;
 	position:relative;
-	padding-bottom:300px;
 }
 
 ul.objectives {
@@ -417,7 +416,7 @@ footer {
 .final-footer {
 	padding: 1% 3%;
 	position:absolute;
-	border-top:1px solid #001b3d;
+	background-color: #001b3d;
 }
 
 .final-footer img {
@@ -514,6 +513,8 @@ footer img {
 	}
 	.final-footer {
 		bottom:0;
+		background-color:transparent;
+		border-top: 1px solid #001b3d;
 	}
 	/*body{
 	  padding-bottom:900px;
