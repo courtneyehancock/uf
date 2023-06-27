@@ -15,6 +15,10 @@
             <div class="post-feature">
               <?php the_post_thumbnail(); ?>
             </div>
+            <p class="written-by mt-3"><i class="fa-solid fa-user mr-2"></i><?php get_the_author(); ?></p>
+            <p class="published"><i class="fa-solid fa-calendar-days mr-2"></i><?php get_the_date(); ?></p>
+            <p class="category-label font-italic"><i class="fa-solid fa-tagsmr-2"></i><?php the_category(); ?></p>
+
             <h2 class="post-title mt-3"><?php the_title(); ?></h2>
             <div class="block"></div>
             <?php the_content(); ?>
