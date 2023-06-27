@@ -41,6 +41,17 @@
       'after_title'   => '</h3>'
     ));
 
+    //Home: Recent Posts List Widget
+    register_sidebar(array(
+      'name'          => ('Recent Posts - List'),
+      'id'            => 'recent-posts-list',
+      'description'   => 'Recent posts list widget area on home page',
+      'before_widget' => '<div class="widget-recent-list widget-top">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
     //Footer: Left Widget
     register_sidebar(array(
       'name'          => ('Left Footer'),

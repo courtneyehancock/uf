@@ -11,9 +11,16 @@
             }
           }
         ?>
-        <div class="container">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-lg-6">
           <!--Recent Posts-->
           <?php dynamic_sidebar('recent-posts'); ?>
+        </div>
+        <div class="col-lg-6">
+          <!--Recent Posts-->
+          <?php dynamic_sidebar('recent-posts-list'); ?>
+        </div>
         </div>
 </div>
 
