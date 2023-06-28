@@ -20,8 +20,7 @@
             <p class="published"><i class="fa-solid fa-calendar-days mr-2"></i><?php echo get_the_date(); ?></p>
             <p class="category-label"><?php the_category(); ?></p>
           </div>
-            <h2 class="post-title mt-3"><?php the_title(); ?></h2>
-            <div class="block"></div>
+            <h1 class="post-title mt-3 lines"><?php the_title(); ?></h1>
             <?php the_content(); ?>
           </div>
           <div class="col-lg-3">

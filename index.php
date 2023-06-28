@@ -5,13 +5,15 @@
 
 </div>
   <div class="container mt-5 page-top">
+
     <?php
       if(have_posts()){
         while(have_posts()){
           the_post();?>
-
+          <div class="row">
+            <div class="col-lg-9">
           <div class="posts">
-            <div class="row align-items-center shadow p-3 mb-4 rounded-lg bg-white">
+            <div class="row align-items-center p-3 mb-4">
               <div class="col-lg-4">
             <?php the_post_thumbnail('medium'); ?>
           </div>
@@ -26,13 +28,22 @@
               $archive_day = get_the_time('d');
             ?>
             <div class="post-info d-flex align-items-center justify-content-end">
-              <p class="font-italic">Published: <?php echo get_the_date(); ?></p>
-            <p class="category-label font-italic">Category: <?php the_category(); ?></p>
+              <p><i class="fa-solid fa-calendar-days mr-2"></i> <?php echo get_the_date(); ?></p>
+            <p class="category-label"><?php the_category(); ?></p>
             </div>
 
           </div>
           </div>
+
         </div>
+      </div>
+      <div class="col-lg-3">
+        <!--Recent Posts-->
+        <?php dynamic_sidebar('recent-posts'); ?>
+
+      </div>
+    </div>
+
     <?php } //ends while loop
       }//end if statement
       ?>
