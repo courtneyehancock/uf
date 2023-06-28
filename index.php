@@ -5,15 +5,15 @@
 
 </div>
   <div class="container mt-5 page-top">
-
+    <div class="row">
+      <div class="col-lg-9">
     <?php
       if(have_posts()){
         while(have_posts()){
           the_post();?>
-          <div class="row">
-            <div class="col-lg-9">
+
           <div class="posts">
-            <div class="row align-items-center p-3 mb-4">
+            <div class="row align-items-start p-3 mb-4">
               <div class="col-lg-4">
             <?php the_post_thumbnail('medium'); ?>
           </div>
@@ -36,6 +36,11 @@
           </div>
 
         </div>
+
+
+    <?php } //ends while loop
+      }//end if statement
+      ?>
       </div>
       <div class="col-lg-3">
         <!--Recent Posts-->
@@ -43,10 +48,6 @@
 
       </div>
     </div>
-
-    <?php } //ends while loop
-      }//end if statement
-      ?>
   </div>
 </div>
 <?php get_footer(); ?>
