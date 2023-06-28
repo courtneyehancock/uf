@@ -16,9 +16,9 @@
               <?php the_post_thumbnail(); ?>
             </div>
             <div class="post-details">
-            <p class="written-by mt-3"><i class="fa-solid fa-user mr-2"></i><?php get_the_author(); ?></p>
-            <p class="published"><i class="fa-solid fa-calendar-days mr-2"></i><?php get_the_date(); ?></p>
-            <p class="category-label font-italic"><i class="fa-solid fa-tags mr-2"></i><?php the_category(); ?></p>
+            <p class="written-by mt-3"><i class="fa-solid fa-user mr-2"></i><?php echo get_the_author(); ?></p>
+            <p class="published"><i class="fa-solid fa-calendar-days mr-2"></i><?php echo get_the_date(); ?></p>
+            <p class="category-label"><?php the_category(); ?></p>
           </div>
             <h2 class="post-title mt-3"><?php the_title(); ?></h2>
             <div class="block"></div>
