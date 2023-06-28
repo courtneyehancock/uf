@@ -15,8 +15,8 @@
             <div class="post-feature">
               <?php the_post_thumbnail(); ?>
             </div>
-            <div class="post-details">
-            <p class="written-by mt-3"><i class="fa-solid fa-user mr-2"></i><?php echo get_the_author(); ?></p>
+            <div class="post-details mt-3 d-flex align-items-center">
+            <p class="written-by"><i class="fa-solid fa-user mr-2"></i><?php echo get_the_author(); ?></p>
             <p class="published"><i class="fa-solid fa-calendar-days mr-2"></i><?php echo get_the_date(); ?></p>
             <p class="category-label"><?php the_category(); ?></p>
           </div>
