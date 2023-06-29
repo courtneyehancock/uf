@@ -38,8 +38,8 @@ get_header();
           <?php the_post_thumbnail('medium'); ?>
         </div>
         <div class="col-lg-9">
-          <p><?php the_excerpt(); ?> | <a href="<?php the_permalink(); ?>" class="underline-from-left arrow-link">Read Post</a></p>
-
+          <?php the_excerpt(); ?>
+          <a href="<?php the_permalink(); ?>" class="underline-from-left arrow-link">Read Post</a>
           <?php
             $archive_year = get_the_time('Y');
             $archive_month = get_the_time('m');
