@@ -13,21 +13,20 @@
           the_post();?>
 
           <div class="posts">
-            <div class="row align-items-start p-3 mb-4">
-              <div class="col-lg-4">
+            <div class="row p-3 mb-4">
+              <div class="col-lg-3 mt-3">
             <?php the_post_thumbnail('medium'); ?>
           </div>
-          <div class="col-lg-8">
-            <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-            <?php the_excerpt(); ?>
-            <p>    <a href="<?php the_permalink(); ?>" class="btn btn-primary card-btn">READ POST</a>
+          <div class="col-lg-9">
+            <h1 class="post-title lines"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+            <p><?php the_excerpt(); ?> | <a href="<?php the_permalink(); ?>" class="underline-from-left arrow-link">Read Post</a></p>
 
             <?php
               $archive_year = get_the_time('Y');
               $archive_month = get_the_time('m');
               $archive_day = get_the_time('d');
             ?>
-            <div class="post-info d-flex align-items-center justify-content-end">
+            <div class="post-info d-flex align-items-center">
               <p><i class="fa-solid fa-calendar-days mr-2"></i> <?php echo get_the_date(); ?></p>
             <p class="category-label"><?php the_category(); ?></p>
             </div>

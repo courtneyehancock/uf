@@ -1,10 +1,7 @@
 <?php get_header(); ?>
 
 <div class="main-content pt-5 pb-5">
-  <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(360deg, #00529be3, #00285ddb, #001a3d), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg');">
-
-</div>
-  <div class="container mt-5 page-top">
+  <div class="container mt-5">
   <?php
     if(have_posts()){
       while(have_posts()){
