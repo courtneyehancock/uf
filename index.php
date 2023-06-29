@@ -13,12 +13,13 @@
           the_post();?>
 
           <div class="posts">
+            <h1 class="post-title lines"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+
             <div class="row p-3 mb-4">
               <div class="col-lg-3 mt-3">
             <?php the_post_thumbnail('medium'); ?>
           </div>
           <div class="col-lg-9">
-            <h1 class="post-title lines"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
             <p><?php the_excerpt(); ?> | <a href="<?php the_permalink(); ?>" class="underline-from-left arrow-link">Read Post</a></p>
 
             <?php
