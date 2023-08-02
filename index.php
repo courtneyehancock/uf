@@ -14,14 +14,18 @@
         while(have_posts()){
           the_post();?>
 
-          <div class="posts">
-            <h1 class="post-title lines"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
-
+          <div class="posts shadow rounded-lg p-2 mb-4">
             <div class="row p-3 mb-4">
-              <div class="col-lg-3 mt-3">
+              <div class="col-lg-5 mt-3 p-3">
             <?php the_post_thumbnail('medium'); ?>
+            <div class="post-info d-flex align-items-center">
+              <p><i class="fa-solid fa-calendar-days mr-2"></i> <?php echo get_the_date(); ?></p>
+            <p class="category-label"><?php the_category(); ?></p>
+            </div>
           </div>
-          <div class="col-lg-9">
+          <div class="col-lg-7">
+            <h1 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+
             <?php the_excerpt(); ?>
             <a href="<?php the_permalink(); ?>" class="underline-from-left arrow-link">Read Post</a>
 
@@ -30,10 +34,6 @@
               $archive_month = get_the_time('m');
               $archive_day = get_the_time('d');
             ?>
-            <div class="post-info d-flex align-items-center">
-              <p><i class="fa-solid fa-calendar-days mr-2"></i> <?php echo get_the_date(); ?></p>
-            <p class="category-label"><?php the_category(); ?></p>
-            </div>
 
           </div>
           </div>
@@ -45,7 +45,7 @@
       }//end if statement
       ?>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 p-3">
         <!--Recent Posts-->
         <?php dynamic_sidebar('recent-posts'); ?>
 
