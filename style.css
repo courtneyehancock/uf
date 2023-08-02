@@ -377,6 +377,10 @@ ul.post-categories {
 	padding: 10px 10px 10px 0;
 }
 
+h1.post-title {
+	font-size: 1.2em;
+}
+
 img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
     width: 100%;
     height: 250px;
