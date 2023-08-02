@@ -15,7 +15,7 @@
           the_post();?>
 
           <div class="posts shadow rounded-lg p-2 mb-4">
-            <div class="row p-3 mb-4">
+            <div class="row p-3">
               <div class="col-lg-5 mt-3 p-3">
             <?php the_post_thumbnail('medium'); ?>
             <div class="post-info d-flex align-items-center">
