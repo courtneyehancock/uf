@@ -81,6 +81,17 @@
 	src: url('fonts/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+	max-width:82rem !important;
+}
+
+.container.container-about {
+	max-width:85rem !important;
+}
 
 h1 {
   font-family: 'Obviously-WideBold', sans-serif !important;
@@ -92,14 +103,14 @@ h1 {
 h2 {
   font-family: 'Obviously-Wide', serif !important;
   color: #00529b;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	letter-spacing:.8px;
 }
 
 h3 {
   font-family: 'GentonaHeavy', serif !important;
   color: #00529b;
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 h4 {
@@ -126,6 +137,13 @@ h6 {
 	font-family: 'BillionDreams', sans-serif;
 }
 
+.p-font {
+	font-family: 'PlayfairDisplay-Regular' !important;
+	font-style:italic;
+	font-size: 14px;
+	margin:0;
+}
+
 p,
 li {
   font-family: 'GentonaLight', sans-serif !important;
@@ -149,33 +167,24 @@ a:hover {
 
 
 .btn {
-    border: 2px solid #ff590e;
+    border: none !important;
     font-family: 'GentonaBook' !important;
-    color: #ff590e;
-		background-color: transparent;
-		border-radius:  1.25rem !important;
+    color: #fff;
+		background-color: #ff590e;
+	border-radius: 5px;
 		letter-spacing:1px;
 		text-transform:uppercase;
+		padding: .5rem 1rem !important;
 }
 .btn:hover {
-  border: 2px solid #00285d;
-  color: #00285d;
-	background: transparent !important;
+  border: none;
+  color: #fff;
+	background-color: #00285d;
 }
 
-.p-font {
-	font-family: 'PlayfairDisplay-Regular' !important;
-	font-style:italic;
-	font-size: 14px;
-	margin:0;
+ul li {
+	list-style:none !important;
 }
-
-.shadow {
-	box-shadow: 1px 5px 8px rgba(0,0,0, .1)
-}
-/*body{
-  padding-bottom:500px;
-}*/
 
 .main-content{
 /*  min-height:190vh;*/
@@ -189,6 +198,35 @@ ul.objectives {
     font-size: 15px;
     font-style: italic;
 	}
+
+.border-title {
+	border-left: 5px solid #ff590e;
+  padding-left: 13px;
+  position: relative;
+  left: -19px;
+}
+
+i.icon-orange {
+	color:#ff590e;
+	margin-right:10px;
+}
+
+i.icon-blue {
+	color:#00592b;
+	margin-right:10px;
+}
+
+.page-top {
+	margin-top:218px !important;
+}
+
+hr.vertical {
+    width: 0px;
+    height: 200px;
+    border: .95px solid #00285db3;
+	margin:0 auto;
+}
+
 /* -- HEADER -- */
 header {
   background-color: #fff;
@@ -290,7 +328,7 @@ img.img-fluid.headshots {
 }
 
 /* -- BLOG -- */
-.pagination-links {
+/*.pagination-links {
 	text-align:center;
 }
 
@@ -335,7 +373,7 @@ span.page-numbers.current {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0.25rem;
-}
+}*/
 
 img.avatar.avatar-60.photo {
     width: 100px !important;
@@ -343,6 +381,28 @@ img.avatar.avatar-60.photo {
 		box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
 		margin: 0 auto !important;
     display: block !important;
+}
+.post-details p {
+	color:#c3c3c3;
+}
+
+.post-info {
+	display:flex;
+    padding: 1rem 1rem 0;
+    margin-bottom: -13px;
+}
+
+.post-info p {
+	font-size:13px;
+	color:#c3c3c3;
+}
+
+.written-by,
+.published {
+	font-size:14px;
+}
+.blog-excerpt p {
+	font-size:16px !important;
 }
 
 .posts p {
@@ -354,24 +414,16 @@ h2.archive-title {
 	margin: 15px 20px;
 }
 
-/*p.category-label,
-.post-categories {
-	display: inline-block;
-}*/
-
 ul.post-categories {
 	list-style-type: none;
 	margin-bottom: 0;
 	padding-left: 5px;
 }
 
-/*.post-title {
-	padding: 10px 10px 10px 0;
-}*/
-
-/*.post-info {
-	margin:10px 0px;
-}*/
+.post-categories li a {
+    font-size: 14px;
+	color:#c3c3c3;
+}
 
 img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
     width: 100%;
@@ -379,21 +431,45 @@ img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
 		object-fit: cover !important;
 }
 
+img.attachment-medium.size-medium.wp-post-image {
+    height: 150px !important;
+    object-fit: cover !important;
+	box-shadow:1px 5px 8px rgb(0 0 0 / 10%);
+}
+
 img {
 	width: 100%;
 	height: auto;
 }
 
-/*.written-by,
-.published {
-	/*display: inline-block;*/
-/*	margin: 0;
-	padding: 0 10px;
-	text-align:center;
-}*/
-
 ul.post-categories li {
     display: inline;
+}
+
+/* Header styling with before line */
+.lines {
+position: relative;
+}
+.lines:before {
+content: "";
+display: block;
+width: 585px;
+height: 2px;
+border-top:3px dashed rgb(0, 33, 165);
+background: linear-gradient(180deg, rgba(0, 33, 165, 1) 0%, rgba(0, 44, 95, 1) 100%);
+left: -600px;
+top: 50%;
+position: absolute;
+}	 
+
+/* Recent Posts Widget */
+.widget-recent.widget-top li {
+    padding: 10px;
+    border-bottom: 1px solid #f4f4f4;
+    font-size: 16px;
+}
+ul.wp-block-categories-list.wp-block-categories {
+    list-style: none;
 }
 
 /* -- FOOTER -- */
