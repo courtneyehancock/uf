@@ -212,7 +212,7 @@ i.icon-orange {
 }
 
 i.icon-blue {
-	color:#00592b;
+	color:#00529b;
 	margin-right:10px;
 }
 
@@ -460,7 +460,7 @@ background: linear-gradient(180deg, rgba(0, 33, 165, 1) 0%, rgba(0, 44, 95, 1) 1
 left: -600px;
 top: 50%;
 position: absolute;
-}	 
+}
 
 /* Recent Posts Widget */
 .widget-recent.widget-top li {
