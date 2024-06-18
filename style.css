@@ -15,7 +15,10 @@
 	font-family: 'GentonaBook';
 	src: url('fonts/GentonaBook.ttf') format('truetype');
 }
-
+@font-face {
+	font-family: 'GentonaBold';
+	src: url('fonts/GentonaBold.otf') format('opentype');
+}
 @font-face {
 	font-family: 'GentonaHeavy';
 	src: url('fonts/GentonaHeavy.ttf') format('truetype');
