@@ -17,7 +17,7 @@
 }
 @font-face {
 	font-family: 'GentonaBold';
-	src: url('fonts/GentonaBold.otf') format('opentype');
+	src: url('fonts/GentonaTT-Bold.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'GentonaHeavy';
