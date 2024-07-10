@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="main-content pt-5 pb-5">
-  <div class="container mt-5">
+  <div class="container mt-5 pt-5">
   <?php
     if(have_posts()){
       while(have_posts()){
@@ -13,8 +13,8 @@
               <?php the_post_thumbnail(); ?>
             </div>
             <div class="post-details mt-3 d-flex align-items-center">
-            <p class="written-by"><i class="fa-solid fa-user mr-2"></i><?php echo get_the_author(); ?></p>
-            <p class="published"><i class="fa-solid fa-calendar-days mr-2"></i><?php echo get_the_date(); ?></p>
+            <p class="written-by"><?php echo get_the_author(); ?></p>
+            <p class="published"><?php echo get_the_date(); ?></p>
             <p class="category-label"><?php the_category(); ?></p>
           </div>
             <h1 class="post-title mt-3 lines"><?php the_title(); ?></h1>
