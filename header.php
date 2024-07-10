@@ -13,7 +13,6 @@
 </head>
 
 <body <?php body_class();?>>
-
 <header>
   <div class="align-content-center">
     <div class="row main-nav">
@@ -29,16 +28,15 @@
           }
           ?>
         </div>
-
-        <div>
-          <!--Navigation-->
-          <a href="<?php echo home_url('/'); ?>"><div class="header-text">
-            <p class="head-text"><?php bloginfo('description'); ?></p>
-          </div></a>
-        </div>
       </div>
 
-      <div class="col-md-9" id="site-nav">
+      <div class="col-md-9 d-flex align-items-center justify-content-end search-nav">
+        <div class="col-md-4 text-right">
+          <!--Middle Right Footer-->
+          <?php dynamic_sidebar('head-social-widget'); ?>
+        </div>
+    </div>
+      <div class="col-md-12" id="site-nav">
         <!--Navigation-->
         <?php wp_nav_menu(array(
           'theme_location' => 'header-menu',
