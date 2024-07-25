@@ -8,6 +8,12 @@
   <link rel="stylesheet" href="https://use.typekit.net/roz5znz.css">
   <!--font awesome-->
   <script src="https://kit.fontawesome.com/45fdff44f1.js" crossorigin="anonymous"></script>
+  <!--All UF Branding Fonts-->
+  <link rel="preload" href="fonts/GentonaBook.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="fonts/GentonaHeavy.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="fonts/GentonaLight.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="fonts/GentonaTT-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Obviously-WideBold.otf" as="font" type="font/otf" crossorigin="anonymous">
 
   <?php wp_head(); ?>
 </head>
