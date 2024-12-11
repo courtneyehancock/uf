@@ -1,4 +1,4 @@
-r<?php /* Template Name: Archive Page */
+<?php /* Template Name: Archive Page */
 get_header();
 ?>
 <div class="main-content">
