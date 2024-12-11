@@ -33,8 +33,8 @@ get_header();
           the_post();?>
           <div>
           <h3 class="post-title card-title">>> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-            <hr/>
           <span class="blog-category pt-2"><?php the_category(); ?></span>
+              <hr/>
           </div>
     <?php
   } //ends while loop
