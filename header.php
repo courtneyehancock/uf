@@ -9,11 +9,16 @@
   <!--font awesome-->
   <script src="https://kit.fontawesome.com/45fdff44f1.js" crossorigin="anonymous"></script>
   <!--All UF Branding Fonts-->
-  <link rel="preload" href="/wp-content/themes/uf-master/fonts/GentonaBook.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-  <link rel="preload" href="/wp-content/themes/uf-master/fonts/GentonaHeavy.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-  <link rel="preload" href="/wp-content/themes/uf-master/fonts/GentonaLight.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-  <link rel="preload" href="/wp-content/themes/uf-master/fonts/GentonaTT-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-  <link rel="preload" href="/wp-content/themes/uf-master/fonts/Obviously-WideBold.otf" as="font" type="font/otf" crossorigin="anonymous">
+  <link rel="preload" href="/wp-content/themes/uf-master/fonts/Aptos-Light.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/wp-content/themes/uf-master/fonts/Anybody-Black.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/wp-content/themes/uf-master/fonts/Anybody-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/wp-content/themes/uf-master/fonts/Aptos-Black.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="/wp-content/themes/uf-master/fonts/Aptos-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/wp-content/themes/uf-master/fonts/Anybody_Expanded-Black.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/wp-content/themes/uf-master/fonts/Anybody_Expanded-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/wp-content/themes/uf-master/fonts/Anybody_Expanded-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="/wp-content/themes/uf-master/fonts/Aptos.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+
 
   <?php wp_head(); ?>
 </head>
