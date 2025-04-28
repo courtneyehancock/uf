@@ -12,76 +12,111 @@
 
 /* -- Universal Styling -- */
 @font-face {
-	font-family: 'GentonaBook';
-	src: url('fonts/GentonaBook.ttf') format('truetype');
+	font-family: 'Anybody-Black';
+	src: url('fonts/Anybody-Black.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'GentonaBold';
-	src: url('fonts/GentonaTT-Bold.ttf') format('truetype');
+	font-family: 'Anybody-BlackItalic';
+	src: url('fonts/Anybody-BlackItalic.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'GentonaHeavy';
-	src: url('fonts/GentonaHeavy.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'GentonaLight';
-	src: url('fonts/GentonaLight.ttf') format('truetype');
+	font-family: 'Anybody-Bold';
+	src: url('fonts/Anybody-Bold.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'BillionDreams';
-	src: url('fonts/BillionDreams.ttf') format('truetype');
+	font-family: 'Anybody-BoldItalic';
+	src: url('fonts/Anybody-BoldItalic.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Obviously-Wide';
-	src: url('fonts/Obviously-Wide.otf') format('opentype');
+	font-family: 'Anybody-Italic';
+	src: url('fonts/Anybody-Italic.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'Obviously-WideBold';
-	src: url('fonts/Obviously-WideBold.otf') format('opentype');
+	font-family: 'Anybody-Regular';
+	src: url('fonts/Anybody-Regular.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'PlayfairDisplay-Black';
-	src: url('fonts/PlayfairDisplay-Black.ttf') format('truetype');
+	font-family: 'Anybody_Expanded-Black';
+	src: url('fonts/Anybody_Expanded-Black.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'PlayfairDisplay-BlackItalic';
-	src: url('fonts/PlayfairDisplay-BlackItalic.ttf') format('truetype');
+	font-family: 'Anybody_Expanded-BlackItalic';
+	src: url('fonts/Anybody_Expanded-BlackItalic.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'PlayfairDisplay-Bold';
-	src: url('fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+	font-family: 'Anybody_Expanded-Bold';
+	src: url('fonts/Anybody_Expanded-Bold.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'PlayfairDisplay-BoldItalic';
-	src: url('fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype');
+	font-family: 'Anybody_Expanded-BoldItalic';
+	src: url('fonts/Anybody_Expanded-BoldItalic.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'PlayfairDisplay-Italic';
-	src: url('fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+	font-family: 'Anybody_Expanded-Italic';
+	src: url('fonts/Anybody_Expanded-Italic.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'PlayfairDisplay-Regular';
-	src: url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+	font-family: 'Anybody_Expanded-Light';
+	src: url('fonts/Anybody_Expanded-Light.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'PlayfairDisplay-SemiBold';
-	src: url('fonts/PlayfairDisplay-SemiBold.ttf') format('truetype');
+	font-family: 'Anybody_Expanded-LightItalic';
+	src: url('fonts/Anybody_Expanded-LightItalic.ttf') format('truetype');
 }
 
 @font-face {
-	font-family: 'PlayfairDisplay-SemiBoldItalic';
-	src: url('fonts/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
+	font-family: 'Anybody_Expanded';
+	src: url('fonts/Anybody_Expanded-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Anybody_Expanded-SemiBold';
+	src: url('fonts/Anybody_Expanded-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Anybody_Expanded-SemiBoldItalic';
+	src: url('fonts/Anybody_Expanded-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Aptos-Black-Italic';
+	src: url('fonts/Aptos-Black_Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Aptos-Black';
+	src: url('fonts/Aptos-Black.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Aptos-Bold';
+	src: url('fonts/Aptos-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Aptos-Italic';
+	src: url('fonts/Aptos-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Aptos';
+	src: url('fonts/Aptos.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Aptos-Light';
+	src: url('fonts/Aptos-Light.ttf') format('truetype');
 }
 
 html {
@@ -97,27 +132,27 @@ html {
 }
 
 h1 {
-  font-family: 'Obviously-WideBold', sans-serif !important;
+  font-family: 'Anybody_Expanded-Black', sans-serif !important;
   color: #00529b;
 	font-size: 1.7em;
 	font-weight:bold;
 }
 
 h2 {
-  font-family: 'Obviously-Wide', serif !important;
+  font-family: 'Anybody_Expanded-Bold', serif !important;
   color: #00529b;
 	font-size: 1.5em;
 	letter-spacing:.8px;
 }
 
 h3 {
-  font-family: 'GentonaHeavy', serif !important;
+  font-family: 'Aptos-Black', serif !important;
   color: #00529b;
 	font-size: 1.3em;
 }
 
 h4 {
-  font-family: 'GentonaBook', sans-serif !important;
+  font-family: 'Aptos-Bold', sans-serif !important;
   color: #00529b;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -125,31 +160,20 @@ h4 {
 }
 
 h5 {
-  font-family: 'GentonaBook', sans-serif !important;
+  font-family: 'Aptos-Bold', sans-serif !important;
   color: #00529b;
 	font-size: 18px;
 }
 
 h6 {
-  font-family: 'GentonaBook', sans-serif !important;
+  font-family: 'Aptos-Bold-Italic', sans-serif !important;
   color: #00529b;
 	font-size: 18px;
 }
 
-.decor {
-	font-family: 'BillionDreams', sans-serif;
-}
-
-.p-font {
-	font-family: 'PlayfairDisplay-Regular' !important;
-	font-style:italic;
-	font-size: 14px;
-	margin:0;
-}
-
 p,
 li {
-  font-family: 'GentonaLight', sans-serif !important;
+  font-family: 'Aptos-Light', sans-serif !important;
 	color: #212121;
 	font-size: 18px;
 }
@@ -170,7 +194,7 @@ a:hover {
 
 .btn {
     border: none !important;
-    font-family: 'GentonaBook' !important;
+    font-family: 'Aptos' !important;
     color: #fff;
 		background-color: #ff590e;
 	border-radius: 5px;
