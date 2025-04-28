@@ -1,9 +1,9 @@
 /*
   Theme Name: UF OPWD
   Theme URI:
-  Author: Courtney Hancock
+  Author: Courtney Glancy
   Description: This template was made for the University of Florida Office of Professional and Workforce Development
-  Version: 1.2.4
+  Version: 2.1.0
   License: Open
   Text Domain: uf
 
@@ -317,13 +317,6 @@ div.program-area {
 /* -- HOME PAGE -- */
 
 
-/* -- DEPARTMENTS -- */
-.d-photo {
-	object-fit: cover;
-  width: 100%;
-  height: 150px;
-}
-
 /* -- CONTACT US / MEET THE TEAM -- */
 .team-img {
 	max-width:275px;
@@ -332,7 +325,7 @@ div.program-area {
 p.team-name {
     text-align: center;
     font-size: 14px;
-    font-family: 'Obviously-Wide' !important;
+    font-family: 'Anybody-Regular' !important;
     letter-spacing: 0.5px;
 		text-align:center;
 		padding-bottom: 3px;
@@ -394,52 +387,6 @@ p.job-title {
 }
 
 /* -- BLOG -- */
-/*.pagination-links {
-	text-align:center;
-}
-
-.pagination-links a {
-	text-align:center;
-	padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-		font-family: 'GentonaLight' !important;
-		color: #ffffff;
-		background-color: #ff590e;
-		box-shadow: 1px 5px 8px rgba(0,0,0,.1);
-		text-shadow: 1px 1px 0px RGBA(0,0,0,0.17);
-}
-
-span.page-numbers.current {
-	padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-		font-family: 'GentonaLight' !important;
-		color: #ffffff;
-		background-color: #00285d;
-		box-shadow: 1px 5px 8px rgba(0,0,0,.1);
-		text-shadow: 1px 1px 0px RGBA(0,0,0,0.17);
-}
-
-.pagination-single {
-	display:inline;
-	margin:0 15px;
-}
-
-.pagination-single a {
-	text-decoration:none;
-	font-family: 'GentonaLight' !important;
-	color: #ffffff;
-	background-color: #ff590e;
-	box-shadow: 1px 5px 8px rgba(0,0,0,.1);
-	text-shadow: 1px 1px 0px RGBA(0,0,0,0.17);
-	padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-}*/
 
 img.avatar.avatar-60.photo {
     width: 100px !important;
@@ -577,7 +524,7 @@ footer p {
   /*  color: #f37022;*/
 }
 footer ul {
-    font-family: 'GentonaBook' !important;
+    font-family: 'Aptos' !important;
     list-style-type: none;
 		padding-left: 0;
 }
