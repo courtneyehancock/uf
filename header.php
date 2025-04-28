@@ -7,7 +7,7 @@
   <!--Classica Web Font-->
   <link rel="stylesheet" href="https://use.typekit.net/roz5znz.css">
   <!--font awesome-->
-  <script src="https://kit.fontawesome.com/45fdff44f1.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/ff495b8443.js" crossorigin="anonymous"></script>
   <!--All UF Branding Fonts-->
   <link rel="preload" href="/wp-content/themes/uf-master/fonts/Aptos-Light.ttf" as="font" type="font/ttf" crossorigin="anonymous">
   <link rel="preload" href="/wp-content/themes/uf-master/fonts/Anybody-Black.ttf" as="font" type="font/ttf" crossorigin="anonymous">
