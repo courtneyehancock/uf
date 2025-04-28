@@ -132,14 +132,14 @@ html {
 }
 
 h1 {
-  font-family: 'Anybody_Expanded-Black', sans-serif !important;
+  font-family: 'Anybody_Expanded', sans-serif !important;
   color: #00529b;
 	font-size: 1.7em;
 	font-weight:bold;
 }
 
 h2 {
-  font-family: 'Anybody_Expanded-Bold', serif !important;
+  font-family: 'Anybody_Expanded-Light', serif !important;
   color: #00529b;
 	font-size: 1.5em;
 	letter-spacing:.8px;
