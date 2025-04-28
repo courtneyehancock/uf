@@ -199,7 +199,7 @@ a:hover {
 		background-color: #ff590e;
 	border-radius: 5px;
 		letter-spacing:1px;
-		text-transform:uppercase;
+		text-transform: capitalize;
 		padding: .5rem 1rem !important;
 }
 .btn:hover {
