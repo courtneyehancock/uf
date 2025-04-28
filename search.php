@@ -8,7 +8,7 @@ get_header();
                 <hr>
                 <?php while(have_posts()){
                   the_post(); ?>
-                  <h3><i class="fa-solid fa-chevrons-right icon-orange" style="font-size:16px;"></i> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                  <h3><i class="fa-solid fa-chevrons-right icon-blue"></i> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                   <?php the_excerpt();
                 }
               }else{?>
