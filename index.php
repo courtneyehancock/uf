@@ -21,7 +21,7 @@ if ( function_exists('yoast_breadcrumb') ) {
             the_post();?>
             <div class="col-xl-4 mb-3">
             <div class="card">
-              <img class="card-img-top" <?php the_post_thumbnail('medium'); ?>
+              <?php the_post_thumbnail('medium', ['class' => 'card-img-top']); ?>
               <div class="post-info">
                 <p><?php echo get_the_author();?><p>
                 <p><?php echo get_the_date(); ?></p>
