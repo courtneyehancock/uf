@@ -154,52 +154,60 @@ h3 {
 h4 {
   font-family: 'Aptos', sans-serif !important;
   color: #00529b;
-	font-size: 20px;
+	font-size: 1.25rem;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 0.125rem;
 }
 
 h5 {
   font-family: 'Aptos-Bold', sans-serif !important;
   color: #00529b;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 
 h6 {
   font-family: 'Aptos-Bold-Italic', sans-serif !important;
   color: #00529b;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 
 p,
 li {
   font-family: 'Aptos-Light', sans-serif !important;
 	color: #212121;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 
 h1, h2, h3, h4, h5, h6, p {
 	margin: 10px;
 }
 
+
 a {
-	color: #ff590e;
-	text-decoration:none;
+	color: #00529b;
+	text-decoration: none;
 }
 
 a:hover {
-	color: #00529b;
-	text-decoration: none;
+	color: #00285d;
+	text-decoration: underline;
+}
+
+a.aa {
+	color:#ff590e;
+}
+
+a.aa:hover {
+	color:#fff;
 }
 
 .btn {
     border: none !important;
     font-family: 'Aptos-Bold' !important;
     color: #fff;
-		background-color: #ff590e;
+		background-color: #00529b;
 	border-radius: 5px;
-		letter-spacing:1px;
-		text-transform: capitalize;
+		letter-spacing:0.05rem;
 		padding: .5rem 1rem !important;
 }
 .btn:hover {
@@ -260,6 +268,79 @@ i.icon-blue {
 	margin-right:10px;
 }
 
+/* Accordion */
+.myaccordion {
+  max-width: 1088px;
+  margin: 50px auto;
+  transition: padding .2s linear;
+}
+#accordion .card {
+    max-width: 800px !important;
+	margin: .8em;
+}
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+}
+
+.myaccordion .card, .myaccordion .card:last-child .card-header {
+    border: none;
+}
+.card {
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.myaccordion .card-header {
+  border-bottom-color: #f4f4f4;
+  background: transparent;
+}
+
+.myaccordion .fa-stack {
+  font-size: 0.875rem;
+}
+
+.fa-inverse {
+    color: #ff590e;
+}
+
+.myaccordion .mybtn {
+  width: 100%;
+  /*font-weight: bold;*/
+  color: #00529b;
+	font-family: 'Aptos';
+  padding: 5px;
+  transition: padding .2s linear;
+  border: none;
+	font-size:1.125rem;
+  background-color:#fff;
+		text-decoration: none;
+}
+
+.myaccordion li + li {
+  margin-top: 10px;
+}
+
+button.d-flex.align-items-center.justify-content-between.mybtn.btn-link.collapsed:hover {
+	text-decoration:underline;
+	color: #00285d;
+}
+
+i.fa.fa-circle-thin.fa-stack-2x {
+    color: #eef3f7;
+}
+
+.myaccordion .card-body {
+	padding: 1.25rem !important;
+}
+
+.myaccordion button::before, button::after {
+    width: 0;
+    height: 0;
+}
+
+.btn-link:active {
+  border:none;
+}
 
 /* -- HEADER -- */
 header {
@@ -324,9 +405,9 @@ div.program-area {
 }
 p.team-name {
     text-align: center;
-    font-size: 14px;
-    font-family: 'Anybody-Regular' !important;
-    letter-spacing: 0.5px;
+    font-size: 0.875rem;
+    font-family: 'Obviously-Wide' !important;
+    letter-spacing: 0.03em;
 		text-align:center;
 		padding-bottom: 3px;
 	margin: 0 10px;
@@ -334,7 +415,7 @@ p.team-name {
 
 p.job-title {
 	font-style: italic;
-	font-size: 16px !important;
+	font-size: 1rem;
 }
 .bio-card .circle {
 	border:8px solid #fff;
@@ -348,7 +429,7 @@ p.job-title {
 }
 
 .bio-contact p{
-    font-size: 16px !important;
+    font-size: 1rem;
 }
 
 .flip-card {
@@ -395,8 +476,9 @@ img.avatar.avatar-60.photo {
 		margin: 0 auto !important;
     display: block !important;
 }
+
 .post-details p {
-	color:#c3c3c3;
+	color:#00529b;
 }
 
 .post-info {
@@ -406,16 +488,16 @@ img.avatar.avatar-60.photo {
 }
 
 .post-info p {
-	font-size:13px;
-	color:#c3c3c3;
+	font-size:1rem;
+	color:#00529b;
 }
 
 .written-by,
 .published {
-	font-size:14px;
+	font-size:1rem;
 }
 .blog-excerpt p {
-	font-size:16px !important;
+	font-size:1rem;
 }
 
 .posts p {
@@ -434,8 +516,12 @@ ul.post-categories {
 }
 
 .post-categories li a {
-    font-size: 14px;
-	color:#c3c3c3;
+    font-size: 1rem;
+	color:#00529b;
+}
+
+.post-categories li a:hover {
+	color:#ff590e;
 }
 
 img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
@@ -466,12 +552,8 @@ ul.post-categories li {
     margin: 10px;
 }
 
-.posts a.underline-from-left.arrow-link {
-	margin:10px;
-}
-
 /* Header styling with before line */
-.lines {
+/*.lines {
 position: relative;
 }
 .lines:before {
@@ -490,7 +572,7 @@ position: absolute;
 .widget-recent.widget-top li {
     padding: 10px;
     border-bottom: 1px solid #f4f4f4;
-    font-size: 16px;
+       font-size: 1rem;
 }
 ul.wp-block-categories-list.wp-block-categories {
     list-style: none;
@@ -515,6 +597,13 @@ footer {
 	width: 100%;
 }
 
+footer h3 {
+	color:#fff !important;
+	padding-bottom:15px;
+	margin-top:15px;
+	letter-spacing:1px;
+}
+
 footer p {
 	color: #fff;
 }
@@ -529,15 +618,21 @@ footer ul {
 		padding-left: 0;
 }
 
-footer li a {
+footer li {
+	margin:10px;
+}
+
+footer li a,
+footer a {
   text-decoration: none;
   color: #fff;
   transition: 0.2s;
 }
 
-footer li a:hover {
+footer li a:hover,
+footer a:hover {
   color: #ff590e;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .widget-footer.widget-right a {
