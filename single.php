@@ -17,7 +17,7 @@
             <p class="published"><?php echo get_the_date(); ?></p>
             <p class="category-label"><?php the_category(); ?></p>
           </div>
-            <h1 class="post-title mt-3 lines"><?php the_title(); ?></h1>
+            <h1 class="post-title mt-3"><?php the_title(); ?></h1>
             <?php the_content(); ?>
           </div>
           <div class="col-lg-3">
