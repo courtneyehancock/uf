@@ -185,12 +185,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 a {
 	color: #00529b;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover {
 	color: #00285d;
-	text-decoration: underline;
+	font-weight; bolder;
 }
 
 a.aa {
