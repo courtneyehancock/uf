@@ -581,8 +581,8 @@ ul.wp-block-categories-list.wp-block-categories {
 /* -- FOOTER -- */
 
 footer {
-	background-image: linear-gradient(135deg, #00529be3, #00285ddb, #001a3d), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/09/0I1A7293.jpg');
-	background-color: #00285e;
+	background-image: linear-gradient(135deg, #0021a5de, #002657), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/09/0I1A7293.jpg');
+	background-color: #002657;
 	padding: 3% 0 3% 0;
 	background-size:cover;
 }
