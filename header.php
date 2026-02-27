@@ -6,6 +6,8 @@
   <title><?php bloginfo('name'); ?></title>
   <!--Classica Web Font-->
   <link rel="stylesheet" href="https://use.typekit.net/roz5znz.css">
+  <!-- Adobe IvyPresto Font-->
+  <link rel="stylesheet" href="https://use.typekit.net/roz5znz.css">
   <!--font awesome-->
 <script src="https://kit.fontawesome.com/ff495b8443.js" crossorigin="anonymous"></script>
   <!--All UF Branding Fonts-->
