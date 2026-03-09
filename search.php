@@ -4,7 +4,7 @@ get_header();
 <div class="main-content">
   <div class="container pt-5 pb-5">
         <?php if(have_posts()){?>
-                <h1><?php printf(__('SEARCH RESULTS FOR : %s'), '<span>' . get_search_query() . '</span>');?></h1>
+                <h1><?php printf(__('Search Results For: %s'), '<span>' . get_search_query() . '</span>');?></h1>
                 <hr>
                 <?php while(have_posts()){
                   the_post(); ?>
