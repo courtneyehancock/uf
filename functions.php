@@ -23,6 +23,11 @@
 
   add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
+//Add function for event calendar
+function custom_excerpt_length( $length ) {
+    return 100; // Set the excerpt length to 100 words
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
   //Widget Areas
   function blank_widgets_init() {
