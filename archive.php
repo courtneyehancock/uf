@@ -5,7 +5,7 @@ get_header();
   <div class="container pt-5 pb-5">
     <div class="row">
       <div class="col-lg-9">
-          <h1 class="mb-5">Exploring: <?php
+          <h1 class="mb-5">Search Results for: <?php
       if(is_category()){
         single_cat_title();
       }elseif(is_tag()){
@@ -27,7 +27,7 @@ get_header();
         while(have_posts()){
           the_post();?>
           <div>
-          <h3 class="post-title card-title">>> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+          <p class="post-title card-title"><i class="fa-solid fa-chevrons-right icon-blue"></i> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
           <span class="blog-category pt-2"><?php the_category(); ?></span>
               <hr/>
           </div>
@@ -43,5 +43,3 @@ get_header();
     </div>
   </div>
   </div>
-  </div>
-  <?php get_footer(); ?>
