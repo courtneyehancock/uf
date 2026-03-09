@@ -205,7 +205,7 @@ a.aa:hover {
     border: none !important;
     font-family: 'Aptos-Bold' !important;
     color: #fff;
-		background-color: #0021a5;
+		background: linear-gradient(45deg, #0021a5, #002657);
 	border-radius: 5px;
 		letter-spacing:0.05rem;
 		padding: 1rem !important;
@@ -213,7 +213,7 @@ a.aa:hover {
 .btn:hover {
   border: none;
   color: #fff;
-	background-color: #002657;
+	background: #0021a5;
 }
 
 ul li {
