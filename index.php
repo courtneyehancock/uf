@@ -19,7 +19,7 @@ if ( function_exists('yoast_breadcrumb') ) {
 
           while(have_posts()){
             the_post();?>
-            <div class="col-xl-4 mb-3">
+            <div class="col-sm-4 mb-3">
             <div class="card">
               <?php
 $thumbnail_id = get_post_thumbnail_id();
