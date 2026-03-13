@@ -152,11 +152,9 @@ h3 {
 }
 
 h4 {
-  font-family: 'Aptos', sans-serif !important;
+  font-family: 'Aptos-Bold', sans-serif !important;
   color: #0021a5;
 	font-size: 1.25rem;
-	text-transform: uppercase;
-	letter-spacing: 0.125rem;
 }
 
 h5 {
