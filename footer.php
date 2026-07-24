@@ -23,10 +23,10 @@
   <div class="container-fluid final-footer">
     <div class="row align-items-center">
       <div class="col-lg-8">
-        <p> © <?php echo date("Y"); ?> University of Florida Professional and Workforce Development | <a href="mailto:branding@aa.ufl.edu">Website Feedback</a> | <a href="https://privacy.ufl.edu/privacy-policies-and-procedures/onlineinternet-privacy-statement/">UF Privacy Policy</a></p>
+        <p> © <?php echo date("Y"); ?> University of Florida | <a href="https://accessibility.ufl.edu/">UF Accessibility</a> | <a href="https://privacy.ufl.edu/privacy-policies-and-procedures/onlineinternet-privacy-statement/">UF Privacy Policy</a></p>
       </div>
       <div class="col-lg-2">
-        <a href="https://pwd.aa.ufl.edu/" target="_blank"><img alt="PWD Logo" src="https://pwd.aa.ufl.edu/wp-content/uploads/2025/04/OPWD-White.png"></a>
+        <a href="https://tnt.aa.ufl.edu/" target="_blank"><img alt="UF Associate Provost Logo" src="https://pwd.aa.ufl.edu/wp-content/uploads/2026/07/UF_AssociateProvost-WHITE-1.png"></a>
       </div>
       <div class="col-lg-2">
         <a href="https://www.ufl.edu/" target="_blank"><img alt="UF Logo" src="https://pwd.aa.ufl.edu/wp-content/uploads/2021/08/UF-SVG.svg"/></a>
