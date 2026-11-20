@@ -26,7 +26,6 @@
         <p> © <?php echo date("Y"); ?> University of Florida | <a href="https://accessibility.ufl.edu/">UF Accessibility</a> | <a href="https://privacy.ufl.edu/privacy-policies-and-procedures/onlineinternet-privacy-statement/">UF Privacy Policy</a></p>
       </div>
       <div class="col-lg-2">
-        <a href="https://tnt.aa.ufl.edu/" target="_blank"><img alt="UF Associate Provost Logo" src="https://pwd.aa.ufl.edu/wp-content/uploads/2026/07/UF_AssociateProvost-WHITE-1.png"></a>
       </div>
       <div class="col-lg-2">
         <a href="https://www.ufl.edu/" target="_blank"><img alt="UF Logo" src="https://pwd.aa.ufl.edu/wp-content/uploads/2021/08/UF-SVG.svg"/></a>
